@@ -10,6 +10,7 @@ It is based on `pynvml` and you can custom it yourself like me!
 ## Dependencies
 ```bash
 sudo pip install nvidia-ml-py
+sudo pip install psutil
 ```
 
 ## Installation and Usage
