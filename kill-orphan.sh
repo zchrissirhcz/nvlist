@@ -5,6 +5,8 @@
 # there may be still orphan processes, whose ppid=1
 # and corresponding gpu will show "??" when yanking `nvl`
 
+# make sure there is `fuser` command in your system
+# if not, then install it via `sudo apt install psmisc`
 #sudo fuser /dev/nvidia*  # or: /dev/nvidia4 for card_id=4
 #ps -ef | grep '19561' | awk '{print $1, $2, $3}'
 #sudo kill -9 19561
