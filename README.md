@@ -13,3 +13,19 @@ nvue is written in Python and compatible with Python2 & Python3.
 
 This script query and kill orphan processes on nvidia gpu.
 
+
+**other useful packages**
+```
+pip install nvgpu
+pip install gpustat
+```
+
+then:
+```
+nvl
+```
+or:
+```
+gpustat
+```
+
